@@ -24,8 +24,8 @@ Uses [Claude Code hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) t
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/wiz-light-claude.git
-cd wiz-light-claude
+git clone https://github.com/serafinsanchez/claude-code-wiz-light.git
+cd claude-code-wiz-light
 ./install.sh
 ```
 
