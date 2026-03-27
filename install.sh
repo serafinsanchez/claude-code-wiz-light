@@ -114,7 +114,7 @@ echo "Installation complete! Your WiZ bulb will now respond to Claude Code event
 echo ""
 echo "  Bulb ON  = Claude is working"
 echo "  Bulb OFF = Claude finished responding"
-echo "  Blue     = Notification (waiting for input)"
+echo "  Blue     = Notification — persistent blue until the next Claude event"
 echo "  Green    = Task completed"
 echo ""
 echo "To customize colors/brightness, edit the scripts in: $HOOK_DIR"

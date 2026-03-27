@@ -2,7 +2,7 @@
 
 Turn your [WiZ smart bulb](https://www.wizconnected.com/) into a real-time activity indicator for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
-The bulb lights up when Claude is working, turns off when it's done, flashes blue for notifications, and flashes green when tasks complete.
+The bulb lights up when Claude is working, turns off when it's done, stays blue for notifications (waiting for input) until the next Claude lifecycle event changes it, and flashes green when tasks complete.
 
 ## How It Works
 
@@ -12,7 +12,7 @@ Uses [Claude Code hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) t
 |---|---|
 | You send a prompt | Warm white ON (2700K, 80%) |
 | Claude finishes responding | OFF |
-| Notification (waiting for input) | Blue flash, then warm white |
+| Notification (waiting for input) | Persistent blue until the next Claude event |
 | Task completed | Green flash, then warm white |
 
 ## Requirements
